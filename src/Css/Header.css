@@ -1,0 +1,125 @@
+.header{
+    padding: 1rem 2rem 0rem 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+.user{
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: system-ui;
+    letter-spacing: 2px;
+    margin-left: 1rem;
+}
+.hr{
+    margin: 38px 28px 27px 93px;
+    color: white;
+    border: 0;
+    border-top: 2px solid;
+    opacity: .25;
+}
+.footer{
+    padding: 0rem 2rem 2rem 6rem;
+    display: flex;
+    justify-content: center;
+    color: #c8ced2;
+    letter-spacing:2px;
+}
+.footer a{
+    color: #c8ced2;
+    padding: 0rem 1rem;
+    text-decoration: underline;
+}
+
+.footer a:hover{
+    color: #c8ced2;
+    padding: 0rem 1rem;
+    text-decoration: underline;
+}
+.header-left{
+    display: flex;
+}
+.profile-icon{
+    background: black;
+    width: 53px;
+    color: white;
+    border-radius: 50%;
+    border: red 2px solid;
+    height: 53px;
+    padding: 10px 16px 9px 18px;
+}
+.header-right{
+    display: flex;
+    justify-content: space-between;
+    width: 14rem;
+}
+.icons{
+    padding: 3px 0px 0px 8px;
+    border-radius: 50%;
+    height: 2rem;
+    background: black;
+    width: 2rem;
+    color: white;
+}
+
+/* Header.css */
+
+   @media screen and  (max-width:768px) {
+    .header{
+        width: 80rem;
+    }
+    .hr{
+        width: 80rem;
+    }
+    .footer{
+        width: 80rem;
+    }
+    .header-right {
+        display: flex;
+        justify-content: space-between;
+        width: 22rem;
+    }
+    .icons {
+        padding: 13px 0px 0px 16px;
+        border-radius: 50%;
+        height: 4rem;
+        background: black;
+        width: 4rem;}
+        .icons i{
+            font-size: 2rem;
+        }
+        .profile-icon i{
+            font-size: 3rem;
+        }
+        .user {
+            font-size: 2rem;
+            margin-left: 2rem;
+        }
+        .profile-icon{
+            background: black;
+            width: 106px;
+            height: 91px;
+            padding: 18px 0px 0px 31px;
+        }
+
+    
+}
+@media screen and (max-width:426px){
+    .profile-icon{
+        background: black;
+        width: 106px;
+        height: 91px;
+        padding: 18px 0px 0px 31px;
+    }
+    .profile-icon i{
+        font-size: 3rem;
+    }
+    .user {
+        font-size: 2rem;
+        margin-left: 2rem;
+    }
+    .header-right{
+        display: none;
+
+    }
+}

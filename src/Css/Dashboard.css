@@ -1,0 +1,142 @@
+.dashboard-head{
+    padding: 0rem 2rem 2rem 6rem;
+}
+
+
+.dashboard-name{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    color: white;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.dashboardlist{
+    font-size: 10px;
+    color: #f1ebeb;
+    letter-spacing: 1px;
+}
+.db{
+    display: flex;
+}
+.dash-box{
+    display: flex;
+    justify-content: space-between;
+}
+.dbox{
+    border-radius: 1.5rem;
+    width: 21rem;
+    background:linear-gradient(100deg,antiquewhite,transparent);
+    height: 10rem;
+    margin: 2rem 0rem 2rem 0rem;
+   
+  
+}
+.dtext{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(249, 242, 242);
+    padding: 54px 0px 11px 28px;
+}
+.dcontent{
+    padding: 0px 9px 0px 29px;
+    color: #ede0e0;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+}
+.dicon{
+    color: white;
+    padding: 14px 9px 0px 109px;
+    font-size: 3.2rem;
+}
+@media screen and (max-width:769px) {
+    .dbox{
+        width: 26rem;
+        height: 14rem;
+       }
+       .dash-box {
+        display: flex;
+        justify-content: space-between;
+        width: 80rem;
+       }
+       .dashboard-name {
+        width: 80rem;
+       }
+       .dtext{
+        font-weight: 600;
+    font-size: 29px;
+    color: rgb(249, 242, 242);
+    padding: 99px 0px 12px 42px;
+       }
+       .dicon {
+        color: white;
+        padding: 28px 9px 0px 109px;
+        font-size: 4.5rem;
+       }
+       .dcontent {
+        padding: 0px 3px 0px 42px;
+        color: #ede0e0;
+        font-family: sans-serif;
+        font-weight: 100;
+        font-size: 17px;}
+
+}
+
+
+@media screen and (max-width:426px) {
+    .dash-box{
+        display: grid;
+    justify-content: center;
+    }
+    .name{
+        font-size: 33px;
+    }
+    .dashboardlist {
+        font-size: 17px;
+    }
+    .dbox {
+        border-radius: 1.5rem;
+        width: 41rem;
+        background: linear-gradient(100deg, antiquewhite, transparent);
+        height: 18rem;
+   }   
+   .dtext {
+    font-weight: 600;
+    font-size: 42px;
+    color: rgb(249, 242, 242);
+    padding: 96px 0px 0px 81px;
+   }
+   .dicon {
+    color: white;
+    padding: 20px 12px 0px 197px;
+    font-size: 6.2rem;
+   }
+   .dcontent {
+    padding: 0px 13px 0px 90px;
+    color: #ede0e0;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 23px;
+   }
+}
+@media screen and (max-width:320px) {
+    .dash-box{
+        margin-left: -9rem;
+    }
+    .dashboard-name {
+        width: 62rem;
+    }
+    .hr {
+        width: 62rem;
+    }
+    .footer {
+        padding: 1rem 0rem 0rem 12rem;
+        display: flex;
+        justify-content: center;
+        color: #c8ced2;
+        letter-spacing: 2px;
+        width: 50rem;
+    }
+}
